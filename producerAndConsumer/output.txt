@@ -1,0 +1,77 @@
+./pandc 10 10 3 2 4 1
+Current Time: Fri Nov 30 21:25:01 2018
+
+Buffer Size: 10
+Number of Producers: 10
+Number of Consumers: 3
+Number of items Produced by each Producer: 2
+Number of items consumed by each Consumer: 6
+Overconsumption: true
+Overconsumption Amount : 8
+Time each Producer Sleeps (seconds): 4
+Time each Consumer Sleeps (seconds): 1
+Producer 1  has produced 1
+Producer 4  has produced 2
+Producer 3  has produced 3
+Producer 5  has produced 4
+Producer 6  has produced 5
+Producer 9  has produced 6
+Producer 7  has produced 7
+Producer 8  has produced 8
+Consumer 1  has consumed 1
+Producer 10 has produced 9
+Consumer 2  has consumed 2
+Consumer 3  has consumed 3
+Producer 2  has produced 10
+Consumer 1  has consumed 4
+Consumer 2  has consumed 5
+Consumer 3  has consumed 6
+Consumer 1  has consumed 7
+Consumer 2  has consumed 8
+Consumer 3  has consumed 9
+Consumer 2  has consumed 10
+Producer 1  has produced 11
+Producer 4  has produced 12
+Consumer 3  has consumed 11
+Consumer 1  has consumed 12
+Producer 6  has produced 13
+Producer 3  has produced 14
+Producer 5  has produced 15
+Producer 8  has produced 16
+Producer 7  has produced 17
+Producer 10 has produced 18
+Producer 9  has produced 19
+Consumer 2  has consumed 13
+Producer 2  has produced 20
+Consumer 3  has consumed 14
+Consumer 1  has consumed 15
+Consumer 2  has consumed 16
+Consumer 3  has consumed 17
+Consumer 1  has consumed 18
+Consumer 3  has consumed 19
+Consumer 3  has consumed 20
+Current Time: Fri Nov 30 21:25:10 2018
+
+Producer Array | Consumer Array
+1              | 1
+2              | 2
+3              | 3
+4              | 4
+5              | 5
+6              | 6
+7              | 7
+8              | 8
+9              | 9
+10             | 10
+11             | 11
+12             | 12
+13             | 13
+14             | 14
+15             | 15
+16             | 16
+17             | 17
+18             | 18
+19             | 19
+20             | 20
+Producer and Consumer Arrays Match!!!
+Total Runtime: 9 seconds
